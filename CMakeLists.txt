@@ -7,3 +7,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin")
 add_executable(GetOptDemo
     getopt_demo.c
 )
+
+add_executable(GetOptLongDemo
+    getopt_long_demo.c
+)
